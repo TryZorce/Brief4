@@ -1,0 +1,22 @@
+.zelda_logo{
+    background-color: #3C4868;
+    width: 100%;
+}
+
+
+.fond_blanc_bienvenue{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text_bienvenue{
+    text-align: center;
+}
+
+h1 {
+    font-size: x-large;
+}
