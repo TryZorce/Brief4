@@ -14,7 +14,7 @@
 <!-- Page d'acceuil début -->
 
 <body>
-    <div>
+    <div class="display no_display" id="start_page">
         <div class="fond_bleuclair">
             <img class="zelda_logo" src="./assets/Zelda_Logo.svg" alt="logo du jeux vidéo The Legend Of Zelda">
 
@@ -23,14 +23,14 @@
                     <h1 class="text_bienvenue">Bienvenue sur ce quiz : <br> The Legend Of Zelda</h1>
                 </div>
                 <div>
-                    <button class="suivant">Lancer le quiz </button>
+                    <button class="suivant" id="button_start">Lancer le quiz </button>
                 </div>
             </div>
         </div>
     </div>
     <!-- Page d'acceuil fin -->
     <!--  Template Question  Q1  début    -->
-    <div>
+    <div class="no_display" id="template_question1">
         <div class="fond_bleuclair">
             <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
                 <p class="text_rond">Première question :<br> Qui est le protagoniste principal de la série The Legend of
@@ -39,14 +39,14 @@
             <div class="wrapper_button_question">
                 <button class="button_question"> Zelda </button>
                 <button class="button_question"> Mario </button>
-                <button class="button_question"> Link </button>
+                <button class="button_question" id="button_question1"> Link </button>
                 <button class="button_question"> Ganon </button>
             </div>
         </div>
     </div>
     <!--  Template Question  Q1  fin   -->
     <!-- Template Réponse R1 début-->
-    <div>
+    <div class="no_display" id="template_reponse1">
         <div class="fond_bleuclair">
             <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
                 <p class="text_rond">Première question :<br> Qui est le protagoniste principal de la série The Legend of
@@ -56,158 +56,157 @@
                 <p class="text_réponse"> La réponse étais : Link</p>
             </div>
             <div>
-                <button class="suivant">Lancer le quizz </button>
+                <button class="suivant" id="button_reponse1">Lancer le quizz </button>
             </div>
         </div>
     </div>
     <!-- Template Réponse R1 fin-->
     <!--  Template Question  Q2  début   -->
-    <div>
+    <div class="no_display" id="template_question2">
         <div class="fond_bleuclair">
             <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
                 <p class="text_rond">Deuxième question :<br> Dans quel jeu de la série The Legend of Zelda, Link est-il
                     poursuivi par un mystérieux masque ?</p>
             </div>
             <div class="wrapper_button_question">
-                <button class="button_question"> Zelda </button>
-                <button class="button_question"> Mario </button>
-                <button class="button_question"> Link </button>
-                <button class="button_question"> Ganon </button>
+                <button class="button_question" id="button_question2"> Majora's Mask </button>
+                <button class="button_question"> A Link to the Past </button>
+                <button class="button_question"> Breath of the Wild </button>
+                <button class="button_question"> Twilight Princess </button>
             </div>
         </div>
-
-        <!--  Template Question  Q2  fin   -->
-        <!-- Template Réponse R2 début -->
-        <div>
-            <div class="fond_bleuclair">
-                <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
-                    <p class="text_rond">Deuxième question :<br> Dans quel jeu de la série The Legend of Zelda, Link
-                        est-il poursuivi par un mystérieux masque ?</p>
-                </div>
-                <div class="fond_blanc">
-                    <p class="text_réponse"> La réponse étais : Link</p>
-                </div>
-                <div>
-                    <button class="suivant">Lancer le quizz </button>
-                </div>
+    </div>
+    <!--  Template Question  Q2  fin   -->
+    <!-- Template Réponse R2 début -->
+    <div class="no_display" id="template_reponse2">
+        <div class="fond_bleuclair">
+            <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
+                <p class="text_rond">Deuxième question :<br> Dans quel jeu de la série The Legend of Zelda, Link
+                    est-il poursuivi par un mystérieux masque ?</p>
+            </div>
+            <div class="fond_blanc">
+                <p class="text_réponse"> La réponse étais : Majora's Mask</p>
+            </div>
+            <div>
+                <button class="suivant" id="button_reponse2">Lancer le quizz </button>
             </div>
         </div>
-
-        <!-- Template Réponse R2 fin -->
-        <!--  Template Question  Q3   début   -->
-        <div>
-            <div class="fond_bleuclair">
-                <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
-                    <p class="text_rond">Troisième question :<br> Quel objet légendaire permet à Link de voyager dans le
-                        temps ?</p>
-                </div>
-                <div class="wrapper_button_question">
-                    <button class="button_question"> Zelda </button>
-                    <button class="button_question"> Mario </button>
-                    <button class="button_question"> Link </button>
-                    <button class="button_question"> Ganon </button>
-                </div>
+    </div>
+    <!-- Template Réponse R2 fin -->
+    <!--  Template Question  Q3   début   -->
+    <div class="no_display" id="template_question3">
+        <div class="fond_bleuclair">
+            <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
+                <p class="text_rond">Troisième question :<br> Quel objet légendaire permet à Link de voyager dans le
+                    temps ?</p>
+            </div>
+            <div class="wrapper_button_question">
+                <button class="button_question"> La Baguette de Feu </button>
+                <button class="button_question"> La Lyre de Nayru </button>
+                <button class="button_question" id="button_question3"> L'ocarina du temps </button>
+                <button class="button_question"> L'Arc du Héros </button>
             </div>
         </div>
+    </div>
 
-        <!--  Template Question  Q3   fin   -->
-        <!-- Template Réponse R3 début-->
-        <div>
-            <div class="fond_bleuclair">
-                <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
-                    <p class="text_rond">Troisième question :<br> Quel objet légendaire permet à Link de voyager dans le
-                        temps ?</p>
-                </div>
-                <div class="fond_blanc">
-                    <p class="text_réponse"> La réponse étais : Link</p>
-                </div>
-                <div>
-                    <button class="suivant">Lancer le quizz </button>
-                </div>
+    <!--  Template Question  Q3   fin   -->
+    <!-- Template Réponse R3 début-->
+    <div class="no_display" id="template_reponse3">
+        <div class="fond_bleuclair">
+            <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
+                <p class="text_rond">Troisième question :<br> Quel objet légendaire permet à Link de voyager dans le
+                    temps ?</p>
+            </div>
+            <div class="fond_blanc">
+                <p class="text_réponse"> La réponse étais : L'ocarina du temps</p>
+            </div>
+            <div>
+                <button class="suivant" id="button_reponse3">Lancer le quizz </button>
             </div>
         </div>
+    </div>
 
-        <!-- Template Réponse R3 fin-->
-        <!--  Template Question  Q4  début     -->
-        <div>
-            <div class="fond_bleuclair">
-                <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
-                    <p class="text_rond">Quatrième question :<br> Quel est le nom du grand méchant récurrent dans la
-                        série The Legend of Zelda ?</p>
-                </div>
-                <div class="wrapper_button_question">
-                    <button class="button_question"> Zelda </button>
-                    <button class="button_question"> Mario </button>
-                    <button class="button_question"> Link </button>
-                    <button class="button_question"> Ganon </button>
-                </div>
+    <!-- Template Réponse R3 fin-->
+    <!--  Template Question  Q4  début     -->
+    <div class="no_display" id="template_question4">
+        <div class="fond_bleuclair">
+            <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
+                <p class="text_rond">Quatrième question :<br> Quel est le nom du grand méchant récurrent dans la
+                    série The Legend of Zelda ?</p>
+            </div>
+            <div class="wrapper_button_question">
+                <button class="button_question"> Bowser </button>
+                <button class="button_question"> Dracula </button>
+                <button class="button_question"> Sephiroth </button>
+                <button class="button_question" id="button_question4"> Ganon </button>
             </div>
         </div>
+    </div>
 
-        <!--  Template Question  Q4  fin     -->
-        <!-- Template Réponse R4 début-->
-        <div>
-            <div class="fond_bleuclair">
-                <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
-                    <p class="text_rond">Quatrième question :<br> Quel est le nom du grand méchant récurrent dans la
-                        série The Legend of Zelda ?</p>
-                </div>
-                <div class="fond_blanc">
-                    <p class="text_réponse"> La réponse étais : Link</p>
-                </div>
-                <div>
-                    <button class="suivant">Lancer le quizz </button>
-                </div>
+    <!--  Template Question  Q4  fin     -->
+    <!-- Template Réponse R4 début-->
+    <div class="no_display" id="template_reponse4">
+        <div class="fond_bleuclair">
+            <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
+                <p class="text_rond">Quatrième question :<br> Quel est le nom du grand méchant récurrent dans la
+                    série The Legend of Zelda ?</p>
+            </div>
+            <div class="fond_blanc">
+                <p class="text_réponse"> La réponse étais : Ganon</p>
+            </div>
+            <div>
+                <button class="suivant" id="button_reponse4">Lancer le quizz </button>
             </div>
         </div>
+    </div>
 
-        <!-- Template Réponse R4 fin-->
-        <!--  Template Question  Q5 début     -->
-        <div>
-            <div class="fond_bleuclair">
-                <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
-                    <p class="text_rond">Cinquitième question :<br> Quel est le nom de l'objet magique utilisé par Link
-                        pour s'envoler dans le jeu The Legend of Zelda: Skyward Sword ?</p>
-                </div>
-                <div class="wrapper_button_question">
-                    <button class="button_question"> Zelda </button>
-                    <button class="button_question"> Mario </button>
-                    <button class="button_question"> Link </button>
-                    <button class="button_question"> Ganon </button>
-                </div>
+    <!-- Template Réponse R4 fin-->
+    <!--  Template Question  Q5 début     -->
+    <div class="no_display" id="template_question5">
+        <div class="fond_bleuclair">
+            <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
+                <p class="text_rond">Cinquitième question :<br> Quel est le nom de l'objet magique utilisé par Link
+                    pour s'envoler dans le jeu The Legend of Zelda: Skyward Sword ?</p>
+            </div>
+            <div class="wrapper_button_question">
+                <button class="button_question" id="button_question5"> La cape des Plumes </button>
+                <button class="button_question"> Le Bâton des Vents </button>
+                <button class="button_question"> Les Bottes de Pégase </button>
+                <button class="button_question"> La Tunique des Vents </button>
             </div>
         </div>
+    </div>
 
-        <!--  Template Question  Q5 fin     -->
-        <!-- Template Réponse R5 début -->
-        <div>
-            <div class="fond_bleuclair">
-                <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
-                    <p class="text_rond">Cinquitième question :<br> Quel est le nom de l'objet magique utilisé par Link
-                        pour s'envoler dans le jeu The Legend of Zelda: Skyward Sword ?</p>
-                </div>
-                <div class="fond_blanc">
-                    <p class="text_réponse"> La réponse étais : Link</p>
-                </div>
-                <div>
-                    <button class="suivant">Lancer le quizz </button>
-                </div>
+    <!--  Template Question  Q5 fin     -->
+    <!-- Template Réponse R5 début -->
+    <div class="no_display" id="template_reponse5">
+        <div class="fond_bleuclair">
+            <div><img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
+                <p class="text_rond">Cinquitième question :<br> Quel est le nom de l'objet magique utilisé par Link
+                    pour s'envoler dans le jeu The Legend of Zelda: Skyward Sword ?</p>
+            </div>
+            <div class="fond_blanc">
+                <p class="text_réponse"> La réponse étais : La cape des Plumes</p>
+            </div>
+            <div>
+                <button class="suivant" id="button_reponse5">Lancer le quizz </button>
             </div>
         </div>
+    </div>
 
-        <!-- Template Réponse R5 fin -->
-        <!-- Template Final début-->
-        <div>
-            <div class="fond_bleuclair">
-                <img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
-                <img class=img_link src="./assets/link_pouce.png" alt="Le personnage de The Legend of Zelda : Link qui fait un pouce en l'air">
-                <div class="fond_blanc_bienvenue">
-                    <p class="text_bienvenue">Bravo ! <br>
-                        Tu a finis le quiz<br>
-                        “The Legend Of Zelda”<br>
-                        
-                        J'espère que tu aimer ce quizz</p>
-                </div>
+    <!-- Template Réponse R5 fin -->
+    <!-- Template Final début-->
+    <div class="no_display" id="template_final">
+        <div class="fond_bleuclair">
+            <img class=rond_bleu src="./assets/rond_bleu.png" alt="Rond bleu en fond de la question">
+            <img class=img_link src="./assets/link_pouce.png"
+                alt="Le personnage de The Legend of Zelda : Link qui fait un pouce en l'air">
+            <div class="fond_blanc_bienvenue">
+                <p class="text_bienvenue">Bravo ! <br>
+                    Tu a finis le quiz<br>
+                    “The Legend Of Zelda”<br>
+
+                    J'espère que tu aimer ce quizz</p>
             </div>
         </div>
     </div>

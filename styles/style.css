@@ -23,3 +23,11 @@
     width: 80%;
 
 }
+
+.no_display{
+    display: none;
+}
+
+.display {
+    display:block;
+} 
