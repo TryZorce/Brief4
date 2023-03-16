@@ -1,5 +1,5 @@
-@import url(menu.css);
-@import url(question_template.css);
+@import url(./menu.css);
+@import url(./question_template.css);
 
 * {
     margin: 0;
@@ -20,6 +20,6 @@
 .suivant {
     margin: 20px;
     padding: 20px;
-    width: 200px;
+    width: 80%;
 
 }
