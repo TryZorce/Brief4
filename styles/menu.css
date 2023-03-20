@@ -1,6 +1,13 @@
-.zelda_logo{
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3C4868;
     width: 100%;
+}
+
+.zelda_logo{
+    width: 60%;
 }
 
 
@@ -19,4 +26,11 @@
 
 h1 {
     font-size: x-large;
+}
+
+@media screen and (min-width: 768px)  {
+    .zelda_logo{
+        width: 50%;
+    }
+    
 }
