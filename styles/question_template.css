@@ -10,11 +10,17 @@
 }
 
 .button_question {
-    width: 100%;
+    width: 300px;
     margin-top: 10%;
-    font-size: 40px;
+    font-size: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .button_question {
+        font-size: 30px;
+    }
+
+}
 .wrapper_button_question {
     display: flex;
     flex-direction: column;

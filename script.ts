@@ -109,3 +109,13 @@ button_reponse5?.addEventListener("click", () => {
     template_reponse5_display?.classList.remove("display");
     template_final_nodisplay?.classList.add("display");
 })
+
+// Récupérer tous les boutons avec la classe "button_question_bad"
+var badButtons = document.querySelectorAll('.button_question_bad');
+
+// Boucle sur chaque bouton et ajouter un événement de clic pour afficher un message "Mauvaise réponse"
+badButtons.forEach(function(button) {
+  button.addEventListener('click', function() {
+    alert('Mauvaise réponse');
+  });
+});
