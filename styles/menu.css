@@ -1,17 +1,18 @@
 .background {
-    display: flex;
+    display: absolute;
     justify-content: center;
     align-items: center;
+    align-content: center;
     background-color: #3C4868;
     width: 100%;
 }
 
-.zelda_logo{
+.zelda_logo {
     width: 60%;
 }
 
 
-.fond_blanc_bienvenue{
+.fond_blanc_bienvenue {
     background-color: white;
     height: 300px;
     display: flex;
@@ -20,7 +21,7 @@
     margin-top: 20px;
 }
 
-.text_bienvenue{
+.text_bienvenue {
     text-align: center;
 }
 
@@ -28,9 +29,9 @@ h1 {
     font-size: x-large;
 }
 
-@media screen and (min-width: 768px)  {
-    .zelda_logo{
+@media screen and (min-width: 768px) {
+    .zelda_logo {
         width: 50%;
     }
-    
+
 }

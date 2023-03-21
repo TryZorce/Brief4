@@ -23,7 +23,7 @@ button_question1?.addEventListener("click", () => {
 /** Quand on clique sur button_reponse1 : Cache template_reponse1 et affiche template_question2    */
 const button_reponse1: HTMLElement | null = document.getElementById("button_reponse1");
 const template_reponse1_display: HTMLElement | null = document.getElementById("template_reponse1");
-const template_question2_nodisplay : HTMLElement | null = document.getElementById("template_question2");
+const template_question2_nodisplay: HTMLElement | null = document.getElementById("template_question2");
 
 button_reponse1?.addEventListener("click", () => {
     template_reponse1_display?.classList.remove("display");
@@ -83,11 +83,11 @@ button_question4?.addEventListener("click", () => {
 /** Quand on clique sur button_reponse4 : Cache template_reponse4 et affiche template_question5   */
 const button_reponse4: HTMLElement | null = document.getElementById("button_reponse4");
 const template_reponse4_display: HTMLElement | null = document.getElementById("template_reponse4");
-const template_question5_nodisplay : HTMLElement | null = document.getElementById("template_question5");
+const template_question5_nodisplay: HTMLElement | null = document.getElementById("template_question5");
 
 button_reponse4?.addEventListener("click", () => {
     template_reponse4_display?.classList.remove("display");
-    template_question5_nodisplay ?.classList.add("display");
+    template_question5_nodisplay?.classList.add("display");
 })
 
 /** Quand on clique sur button_question5 : Cache template_question5 et affiche template_reponse5    */
@@ -105,7 +105,7 @@ const button_reponse5: HTMLElement | null = document.getElementById("button_repo
 const template_reponse5_display: HTMLElement | null = document.getElementById("template_reponse5");
 const template_final_nodisplay: HTMLElement | null = document.getElementById("template_final");
 
-button_reponse5 ?.addEventListener("click", () => {
+button_reponse5?.addEventListener("click", () => {
     template_reponse5_display?.classList.remove("display");
     template_final_nodisplay?.classList.add("display");
 })

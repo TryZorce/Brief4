@@ -1,28 +1,35 @@
-.rond_bleu{
+.rond_bleu {
     width: 100%;
+    position: relative;
 }
 
-.button_question{
-    width: 300px;
-    margin: 20px;
+@media screen and (min-width: 425px) {
+    .rond_bleu { 
+        width: 400px
+    }
+}
+
+.button_question {
+    width: 100%;
+    margin-top: 10%;
     font-size: 40px;
 }
 
-.wrapper_button_question{
+.wrapper_button_question {
     display: flex;
     flex-direction: column;
 }
 
 .text_rond {
     position: absolute;
-    top: 35px;
-    left: 20px;
+    top: 20px;
     font-size: 24px;
+    max-width: 390px;
     color: white;
     text-align: center;
-  }
-  
-  .fond_blanc{
+}
+
+.fond_blanc {
     background-color: white;
     height: 300px;
     width: 80%;
@@ -32,13 +39,18 @@
     margin-top: 20px;
 }
 
-.text_réponse{
+.text_réponse {
     text-align: center;
     font-size: 30px;
 }
+
 .img_link {
     position: absolute;
-    top: 20px;
-    left: 85px;
+    top: 1px;
 }
 
+@media screen and (min-width: 425px)  {
+    .img_link {
+        top: 20px
+    }
+}
