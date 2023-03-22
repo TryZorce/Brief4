@@ -110,6 +110,17 @@ button_reponse5?.addEventListener("click", () => {
     template_final_nodisplay?.classList.add("display");
 })
 
+
+/** Quand on clique sur button_reponse_final : Cache template_final et affiche start_page    */
+const button_reponse_final: HTMLElement | null = document.getElementById("button_reponse_final");
+const template_final_display: HTMLElement | null = document.getElementById("template_final");
+const start_page_nodisplay: HTMLElement | null = document.getElementById("start_page");
+
+button_reponse_final?.addEventListener("click", () => {
+    template_final_display?.classList.remove("display");
+    start_page_nodisplay?.classList.add("display");
+})
+
 // Récupérer tous les boutons avec la classe "button_question_bad"
 var badButtons = document.querySelectorAll('.button_question_bad');
 
