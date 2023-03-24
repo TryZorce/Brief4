@@ -2589,7 +2589,7 @@
 94/home/christopher/Documents/DWWM/Brief_4/node_modules/caniuse-lite/data/features/webworkers.js1678701699049980968 0
 102/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/core/src/requests/WriteBundlesRequest.js1678701698205959571 0
 73/home/christopher/Documents/DWWM/Brief_4/node_modules/terser/node_modules1678701689897748881 1
-63/home/christopher/Documents/DWWM/Brief_4/dist/index.894640a9.js1679663975967491589 0
+63/home/christopher/Documents/DWWM/Brief_4/dist/index.894640a9.js1679669077547682407 0
 94/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/watcher/src/windows/win_utils.cc1678701695521891517 0
 55/home/christopher/Documents/DWWM/Brief_4/dist/.cache/351679407147477470028 1
 89/home/christopher/Documents/DWWM/Brief_4/node_modules/caniuse-lite/data/regions/alt-eu.js1678701695137881780 0
@@ -2608,7 +2608,7 @@
 94/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/core/lib/public/PluginOptions.js1678701697821949835 0
 77/home/christopher/Documents/DWWM/Brief_4/node_modules/chrome-trace-event/dist1678701692633818277 1
 55/home/christopher/Documents/DWWM/Brief_4/dist/.cache/251679407145833428012 1
-50/home/christopher/Documents/DWWM/Brief_4/README.md1679408357197944617 0
+50/home/christopher/Documents/DWWM/Brief_4/README.md1679665090743365006 0
 64/home/christopher/Documents/DWWM/Brief_4/node_modules/picocolors1678701692137805698 1
 84/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/graph/test/integration1678701693669844552 1
 85/home/christopher/Documents/DWWM/Brief_4/node_modules/caniuse-lite/data/regions/PA.js1678701698825975290 0
@@ -3061,7 +3061,7 @@
 82/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/optimizer-terser/src1678701694093855305 1
 55/home/christopher/Documents/DWWM/Brief_4/dist/.cache/ac1679407146149436088 1
 96/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/core/src/requests/ConfigRequest.js1678701697033929856 0
-45/home/christopher/Documents/DWWM/Brief_4/dist1679663975971491696 1
+45/home/christopher/Documents/DWWM/Brief_4/dist1679669077551682514 1
 85/home/christopher/Documents/DWWM/Brief_4/node_modules/cosmiconfig/dist/types.d.ts.map1678701695081880360 0
 76/home/christopher/Documents/DWWM/Brief_4/node_modules/domelementtype/lib/esm1678701692685819597 1
 110/home/christopher/Documents/DWWM/Brief_4/node_modules/caniuse-lite/data/features/same-site-cookie-attribute.js1678701698921977724 0
@@ -4292,7 +4292,7 @@
 87/home/christopher/Documents/DWWM/Brief_4/node_modules/css-tree/lib/syntax/config/mix.js1678701697293936448 0
 89/home/christopher/Documents/DWWM/Brief_4/node_modules/css-tree/lib/syntax/config/lexer.js1678701697161933102 0
 81/home/christopher/Documents/DWWM/Brief_4/node_modules/typescript/lib/lib.es6.d.ts1678703396649299954 0
-67/home/christopher/Documents/DWWM/Brief_4/dist/index.894640a9.js.map1679663975971491696 0
+67/home/christopher/Documents/DWWM/Brief_4/dist/index.894640a9.js.map1679669077551682514 0
 79/home/christopher/Documents/DWWM/Brief_4/node_modules/css-tree/lib/syntax/scope1678701697661945779 1
 50/home/christopher/Documents/DWWM/Brief_4/.cache/261678703392429187798 1
 96/home/christopher/Documents/DWWM/Brief_4/node_modules/css-tree/lib/syntax/scope/atrulePrelude.js1678701693421838262 0
@@ -4649,7 +4649,7 @@
 114/home/christopher/Documents/DWWM/Brief_4/node_modules/caniuse-lite/data/features/img-naturalwidth-naturalheight.js1678701698485966670 0
 128/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/package-manager/test/fixtures/has-a-not-yet-installed/package.json1678701696817924379 0
 75/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/graph/LICENSE1678701693481839784 0
-50/home/christopher/Documents/DWWM/Brief_4/script.ts1679663983607694543 0
+50/home/christopher/Documents/DWWM/Brief_4/script.ts1679669077435679382 0
 102/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/fs-search/fs-search.linux-arm64-gnu.node1678701696681920931 0
 93/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/node-resolver-core/package.json1678701697861950849 0
 84/home/christopher/Documents/DWWM/Brief_4/node_modules/@parcel/node-resolver-core/src1678701697529942432 1
