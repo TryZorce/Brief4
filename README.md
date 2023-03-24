@@ -23,6 +23,19 @@ Vous devrez ensuite lui présenter le thème choisi pour le quiz ainsi que les m
 
 Vous devrez créer un repo Git pour le projet et être rigoureux dans vos commit pour faciliter le suivis du projet.
 
+++Ajout dernière minutes++ :
+
+​
+
+Votre responsable technique est ravi de l’avancement du projet, traiter un sujet sous forme de quiz est beaucoup plus ludique et cette application pourra donc être partagée au plus grand nombre !
+
+​
+
+Néanmoins il souhaite que vous intégriez une popup lorsque l’utilisateur a terminé le quiz, cette popup vise à sensibiliser encore plus le joueur au sujet que vous traitez.
+
+​
+
+++Note++ : vous utiliserez la méthode createElement() pour créer la popup et les éléments qui la compose, puis injecterez cette popup dans votre HTML. L’utilisateur pourra cacher la popup à l’aide d’un bouton / d’une croix.
 
 ## Critères de performance
 
