@@ -22,9 +22,16 @@
             <div>
                 <div class="fond_blanc_bienvenue">
                     <h1 class="text_bienvenue">Bienvenue sur ce quiz : <br> The Legend Of Zelda</h1>
+                    <form id="recup_pseudo">
+                        <label id="username">Entrez votre nom d'utilisateur :</label>
+                        <input type="text" id="pseudo" name="pseudo">
+                        <button type="button" id="button" onclick="displaybienvenue()">Valider</button>
+                    </form>
+                    <div id="bienvenue"></div>
+    
                 </div>
                 <div>
-                    <button class="suivant" id="button_start">Lancer le quiz </button>
+                    <button class="suivant no_display" id="button_start">Lancer le quiz </button>
                 </div>
             </div>
         </div>
