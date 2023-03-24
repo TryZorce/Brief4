@@ -127,8 +127,6 @@ const template_final_nodisplay: HTMLElement | null = document.getElementById("te
 button_reponse5?.addEventListener("click", () => {
     template_reponse5_display?.classList.remove("display");
     template_final_nodisplay?.classList.add("display");
-        /** Location reload pour retourner a l'accueil mais j'ai quand même fait le code "classique" pour retourner a l'accueil */
-        location.reload();
 })
 
 
@@ -136,6 +134,7 @@ button_reponse5?.addEventListener("click", () => {
 const button_reponse_final: HTMLElement | null = document.getElementById("button_reponse_final");
 
 button_reponse_final?.addEventListener("click", () => {
+            /** Location reload pour retourner a l'accueil mais j'ai quand même fait le code "classique" pour retourner a l'accueil */
     location.reload();
 })
 
