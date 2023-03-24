@@ -1,3 +1,21 @@
+/** Récuperer le texte qui seras marquer dans un form et dire "Bonjour username"*/
+
+const form = document.getElementById("recup_pseudo") as HTMLFormElement;
+const inputPseudo = form.elements.namedItem("pseudo") as HTMLInputElement;
+const buttonValider = form.querySelector("button") as HTMLButtonElement;
+const divBienvenue = document.getElementById("bienvenue") as HTMLDivElement;
+
+function displayBienvenue() {
+    const pseudo = inputPseudo.value;
+    const buttonStart = document.getElementById("button_start") as HTMLButtonElement;
+    if (pseudo !== "") {
+        divBienvenue.textContent = `Bonjour ${pseudo} !`;
+        buttonStart.classList.add("display");
+    }
+}
+
+buttonValider.addEventListener("click", displayBienvenue);
+
 /** Quand on clique sur button_start : cache start_page et affiche template_question1   */
 
 const button_start: HTMLElement | null = document.getElementById("button_start");
@@ -8,6 +26,7 @@ button_start?.addEventListener("click", () => {
     template_question_display?.classList.add("display");
     start_page?.classList.remove("display");
 })
+
 
 /** Quand on clique sur button_question1 : Cache template_question1 et affiche template_reponse1    */
 
@@ -125,8 +144,8 @@ button_reponse_final?.addEventListener("click", () => {
 var badButtons = document.querySelectorAll('.button_question_bad');
 
 // Boucle sur chaque bouton et ajouter un événement de clic pour afficher un message "Mauvaise réponse"
-badButtons.forEach(function(button) {
-  button.addEventListener('click', function() {
-    alert('Mauvaise réponse');
-  });
+badButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+        alert('Mauvaise réponse');
+    });
 });
